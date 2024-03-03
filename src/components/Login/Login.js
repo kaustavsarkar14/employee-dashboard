@@ -12,7 +12,7 @@ const Login = () => {
       navigate("/dashboard");
     }
     else{
-      setError("Invalid Email or Password");
+      setError("Invalid Email or Password. (Email - admin@gmail.com , Password - admin)");
     }
   };
   return (
