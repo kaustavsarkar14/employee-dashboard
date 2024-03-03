@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Layout from "./components/Layout";
+import Layout from "./components/Layout/Layout";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           path="/dashboard"
           element={
             <Layout>
-              <h1>Dashborad</h1>
+              <Dashboard />
             </Layout>
           }
         />
