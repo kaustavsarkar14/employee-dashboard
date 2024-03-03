@@ -33,3 +33,8 @@
   border-radius: 10px;
   margin-block: 01rem;
 }
+@media screen and (min-width:768px){
+  .dashboardContainer {
+      margin-inline: 30%;
+  }
+}

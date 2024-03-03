@@ -43,3 +43,8 @@
 .employeeList > :nth-child(even) {
   margin-left: auto;
 }
+@media screen and (min-width:768px){
+  .employeeContainer {
+      margin-inline: 30%;
+  }
+}

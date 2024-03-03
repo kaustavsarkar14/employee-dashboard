@@ -3,12 +3,13 @@ import "./App.css";
 import Layout from "./components/Layout/Layout";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Employee from "./components/Employee/Employee";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<div>login</div>} />
+        <Route path="/" element={<Login />} />
         <Route
           path="/dashboard"
           element={
